@@ -1,0 +1,97 @@
+body  {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: azure;
+}
+
+.flexbox-container{
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+}
+.first-column {
+    margin: 15px;
+}
+.second-column {
+    margin: 15px;
+}
+.third-column {
+    margin: 15px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}      
+    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+    
+
+.fourth-column {
+    margin: 15px 15px;
+    margin-left: auto;
+}
+
+.flexbox-container-two {
+    display:flex;
+    flex-direction: row;
+    min-height: 100%;
+    
+}
+
+.fifth-column {
+    flex: 1;
+    flex-direction: column;
+    background-color: purple;
+    min-height: 100vh;
+    min-width: 400px;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.sixth-column {
+    flex:1 ;
+    flex-direction: column;
+    
+}
+.flex-five {
+    margin: 20px 20px;
+   position: relative;
+   
+}
+
+.flex-six {
+   position: absolute;
+    top: 175px;
+    left: 160px;
+    
+}
+.coin1 {
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+.coin2 {
+
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+   
+}
+.coin3 {
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+   
+}
+   
+ 
+footer{
+    position: fixed;
+    height: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: bottom;
+    background-color: black;
+    color: white;
+}
